@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+
+:root {
+  --bs-primary: #ff7f50;
+}
+
+
+h1, h2, h5 {
+  font-family: "Stack Sans Headline", sans-serif;
+}
+
+h1 {
+    background-color: black;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.destacado {
+  font-weight: 700;
+  font-size: 1.1rem;        
+  color: var(--bs-primary);   
+}
+
+
+#intro {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+
+h1 {
+  transition: color 3s;
+}
+
+h1:hover {
+  color: rgb(255, 255, 255);
+}
